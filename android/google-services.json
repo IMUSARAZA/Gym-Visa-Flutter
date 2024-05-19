@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1057011839530",
+    "project_id": "gymvisa-d2c4a",
+    "storage_bucket": "gymvisa-d2c4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057011839530:android:7e11e7a5d679baad778953",
+        "android_client_info": {
+          "package_name": "com.example.gymvisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057011839530-ss68ppcrenf1sldeoh10u51n1gspdl1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymvisa",
+            "certificate_hash": "90ecc049142fd005fd55167ba8f722a70e632f4c"
+          }
+        },
+        {
+          "client_id": "1057011839530-kojnfkg54m8smbdd4f0nmtucfageoq60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTvRkKHiXaxLiq4dgRESkH9KkLC_NnZ3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057011839530-kojnfkg54m8smbdd4f0nmtucfageoq60.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1057011839530-6bm9gc2tu8sphoggst0e3s24nkggdrf2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gymvisa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
