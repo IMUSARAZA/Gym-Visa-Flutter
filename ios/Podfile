@@ -32,7 +32,8 @@ require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelpe
 target 'Runner' do
   use_frameworks!  # Enable frameworks for pods that require it.
   use_modular_headers!  # Enable modular headers for compatibility.
-
+  # Override Firebase SDK Version
+  $FirebaseSDKVersion = '10.22.0'
   # Install all the iOS pods required for Flutter.
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 
