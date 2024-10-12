@@ -36,8 +36,7 @@ target 'Runner' do
   # Install all the iOS pods required for Flutter.
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 
-  # Add any custom pods here.
-  # For example, Firebase dependencies can be added as follows:
+  # Add Firebase dependencies.
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
