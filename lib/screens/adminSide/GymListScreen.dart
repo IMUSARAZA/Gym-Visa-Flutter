@@ -75,17 +75,3 @@ class GymListScreen extends StatelessWidget {
   }
 }
 
-void main() async {
-  await dotenv.load(fileName: ".env");
-  WidgetsFlutterBinding.ensureInitialized();
-  try {
-    await Firebase.initializeApp(
-        options: DefaultFirebaseOptions.currentPlatform);
-    runApp(MaterialApp(
-      home: GymListScreen(),
-      debugShowCheckedModeBanner: false,
-    ));
-  } catch (e) {
-    print('Error initializing Firebase: $e');
-  }
-}
