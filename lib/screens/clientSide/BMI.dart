@@ -7,7 +7,7 @@ import 'package:gymvisa/screens/clientSide/BMIDataController.dart';
 import 'package:gymvisa/widgets/CustomAppBar.dart';
 import 'package:gymvisa/widgets/CustomTextField.dart';
 import 'package:gymvisa/widgets/CustomButton.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
 
 class BMI extends StatefulWidget {
   const BMI({Key? key}) : super(key: key);

@@ -55,7 +55,7 @@ dependencies:
   flutter_cache_manager:
   flutter_svg:  
   qr_code_scanner:
-  persistent_bottom_nav_bar: 5.0.1 
+  persistent_bottom_nav_bar: 6.2.1
   loading_indicator: 
   fl_chart: 
   font_awesome_flutter:

@@ -4,7 +4,7 @@ import 'package:gymvisa/models/OfflineVideoModel.dart';
 import 'package:gymvisa/screens/clientSide/ExcerciseScreen.dart';
 import 'package:gymvisa/screens/clientSide/OfflineVideos.dart';
 import 'package:gymvisa/widgets/BodyPart.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
 
 class ManBack extends StatefulWidget {
   const ManBack({super.key});

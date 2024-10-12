@@ -5,9 +5,9 @@ import 'package:gymvisa/const/AppColors.dart';
 import 'package:gymvisa/screens/clientSide/Memberships.dart';
 import 'package:gymvisa/widgets/CustomAppBar.dart';
 import 'package:gymvisa/widgets/SubscriptionsButton.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 import 'package:gymvisa/services/Database_Service.dart'; 
-import 'package:gymvisa/models/SubscriptionsModel.dart'; 
+import 'package:gymvisa/models/SubscriptionsModel.dart';
+import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart'; 
 
 // ignore: must_be_immutable
 class Subscriptions extends StatelessWidget {

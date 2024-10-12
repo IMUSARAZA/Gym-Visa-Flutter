@@ -2,14 +2,14 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 import 'package:gymvisa/const/AppColors.dart';
 import 'package:gymvisa/screens/clientSide/QRViewExample.dart';
 import 'package:gymvisa/screens/clientSide/BMI.dart';
 import 'package:gymvisa/screens/clientSide/ExcerciseScreen.dart';
 import 'package:gymvisa/screens/clientSide/HomeScreen.dart';
 import 'package:gymvisa/screens/clientSide/Subscriptions.dart';
-import 'package:gymvisa/services/Database_Service.dart'; 
+import 'package:gymvisa/services/Database_Service.dart';
+import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart'; 
 
 class Home extends StatefulWidget {
   @override
@@ -266,27 +266,27 @@ class _HomeState extends State<Home> {
       controller: _controller,
       screens: _buildScreens(context),
       items: _navBarsItems(),
-      confineInSafeArea: true,
+      // confineInSafeArea: true,
       backgroundColor: const Color.fromARGB(255, 36, 36, 36),
       handleAndroidBackButtonPress: true,
       resizeToAvoidBottomInset: true,
       stateManagement: true,
-      hideNavigationBarWhenKeyboardShows: true,
+      // hideNavigationBarWhenKeyboardShows: true,
       decoration: NavBarDecoration(
         borderRadius: BorderRadius.circular(10.0),
         colorBehindNavBar: const Color.fromARGB(255, 36, 36, 36),
       ),
-      popAllScreensOnTapOfSelectedTab: true,
-      popActionScreens: PopActionScreensType.all,
-      itemAnimationProperties: const ItemAnimationProperties(
-        duration: Duration(milliseconds: 200),
-        curve: Curves.ease,
-      ),
-      screenTransitionAnimation: const ScreenTransitionAnimation(
-        animateTabTransition: true,
-        curve: Curves.ease,
-        duration: Duration(milliseconds: 200),
-      ),
+      // popAllScreensOnTapOfSelectedTab: true,
+      // popActionScreens: PopActionScreensType.all,
+      // itemAnimationProperties: const ItemAnimationProperties(
+      //   duration: Duration(milliseconds: 200),
+      //   curve: Curves.ease,
+      // ),
+      // screenTransitionAnimation: const ScreenTransitionAnimation(
+      //   animateTabTransition: true,
+      //   curve: Curves.ease,
+      //   duration: Duration(milliseconds: 200),
+      // ),
       navBarStyle: NavBarStyle.style15,
     );
   }
