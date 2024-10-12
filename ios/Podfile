@@ -1,5 +1,5 @@
 # Set the platform version to iOS 13.0 to ensure compatibility with Firebase and other pods.
-platform :ios, '13.0'
+platform :ios, '12.0'
 
 # Disable CocoaPods analytics to reduce build times.
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
