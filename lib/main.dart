@@ -46,7 +46,7 @@ import 'package:get/get.dart';
 final navigatorKey = GlobalKey<NavigatorState>();
 
 void main() async {
-  await dotenv.load(fileName: ".env");
+  await dotenv.load(fileName: "lib/assets/.env");
   WidgetsFlutterBinding.ensureInitialized();
   try {
     await Firebase.initializeApp(
