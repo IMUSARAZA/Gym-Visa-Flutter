@@ -129,11 +129,11 @@ flutter:
     - lib/assets/star.svg
     - lib/assets/exercise.svg
     - lib/assets/excercise.svg
+    - .env
     - lib/assets/dummyMembership.png
     - lib/assets/logoDemo2.png
     - lib/assets/graph.png
     - lib/assets/image47.png
-
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

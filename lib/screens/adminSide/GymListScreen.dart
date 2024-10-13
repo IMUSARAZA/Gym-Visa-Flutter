@@ -1,9 +1,5 @@
 // ignore_for_file: unnecessary_null_comparison
-
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:gymvisa/firebase_options.dart';
 import 'package:gymvisa/models/GymModel.dart';
 import 'package:gymvisa/services/database_service.dart';
 

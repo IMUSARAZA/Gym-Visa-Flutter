@@ -45,10 +45,6 @@
 		<true/>
 		<key>UIApplicationSupportsIndirectInputEvents</key>
 		<true/>
-		<key>UISupportedInterfaceOrientations</key>
-		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-		</array>
 		<key>LSSupportsOpeningDocumentsInPlace</key>
 		<true/>
 		<key>UIFileSharingEnabled</key>
@@ -59,7 +55,7 @@
 			<string>remote-notification</string>
 		</array>
 		<key>FirebaseAppDelegateProxyEnabled</key>
-		<false/>
+		<true/>
 		<key>NSAppTransportSecurity</key>
 		<dict>
 			<key>NSAllowsArbitraryLoads</key>
