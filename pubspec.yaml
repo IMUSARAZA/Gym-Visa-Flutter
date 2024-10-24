@@ -129,7 +129,6 @@ flutter:
     - lib/assets/star.svg
     - lib/assets/exercise.svg
     - lib/assets/excercise.svg
-    - .env
     - lib/assets/dummyMembership.png
     - lib/assets/logoDemo2.png
     - lib/assets/graph.png
